@@ -1,6 +1,6 @@
 # ESP8266 C++ dev container
 
-I'm never gona have to setup this shit again. Al hail docker.
+I'm never gonna have to setup this shit again. Al hail docker.
 
 This template comes with:
 
@@ -8,10 +8,10 @@ This template comes with:
 - make is setup
 - RTOS sdk is setup
 - Tool chain is setup
-- All enviroment variables are setup
+- All environment variables are setup
 - Config for the esp8266 is setup
 
-## Requiremtents
+## Requirements
 
 - [dev container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 - [vscode](https://code.visualstudio.com/)
@@ -25,7 +25,7 @@ This template comes with:
 
 ## How to use
 
-In general everything will be the same between operating systems. The differences will be documented after the simeliar steps.
+In general everything will be the same between operating systems. The differences will be documented after the similar steps.
 
 - Install the [dev container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) plugin in `vscode`
 - Clone this repo
