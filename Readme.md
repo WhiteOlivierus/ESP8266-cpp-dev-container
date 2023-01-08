@@ -60,6 +60,8 @@ usbipd wsl attach --busid=<set this to whatever bus-id you esp has>
 
 Now you can restart your `dev container` in `vscode`.
 
+**NOTE:** Because WSL does not support usb passthrough yet, everytime you disconnect the usb device you will have to repeat the `usbipd wsl attach` command. I'm looking for a solution, but it's not there yet.
+
 #### Setup wsl2 with ubuntu
 
 This is very well documented. Just follow the links below.
