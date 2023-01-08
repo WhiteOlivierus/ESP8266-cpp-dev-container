@@ -3,6 +3,7 @@
 I'm never gona have to setup this shit again. Al hail docker.
 
 This template comes with:
+
 - The hello world project setup
 - make is setup
 - RTOS sdk is setup
@@ -21,7 +22,6 @@ This template comes with:
 - [wsl2](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [ubuntu for wsl](https://linuxhint.com/install_ubuntu_windows_10_wsl/) (you can use this and just use the latest version of ubuntu)
 - [usbipd](https://github.com/dorssel/usbipd-win/releases/tag/v2.4.1)
-
 
 ## How to use
 
@@ -47,19 +47,18 @@ For now I only have a extra step that has to be done for windows. This is relate
 - Go end install the latest version of [usbipd](https://github.com/dorssel/usbipd-win/releases/tag/v2.4.1)
 - Now run this command
 
-```
+```powershell
  usbipd wsl list
  ```
 
- - Then you will have to find the ESP8266, look for something called on the line of `USB-SERIAL CH340 (COM9)`
- - Now you can attach the usb device by using this command
+- Then you will have to find the ESP8266, look for something called on the line of `USB-SERIAL CH340 (COM9)`
+- Now you can attach the usb device by using this command]
 
- ```
- usbipd wsl attach --busid=<set this to whatever bus-id you esp has>
- ```
+```powershell
+usbipd wsl attach --busid=<set this to whatever bus-id you esp has>
+```
 
 Now you can restart your `dev container` in `vscode`.
-
 
 #### Setup wsl2 with ubuntu
 
