@@ -1,4 +1,4 @@
-# ESP8266 Dev container using C++
+# ESP8266 C++ dev container
 
 I'm never gona have to setup this shit again. Al hail docker.
 
